@@ -1,0 +1,28 @@
+# Build output
+.gradle/
+build/
+bin/
+out/
+
+# IDE - IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# IDE - VS Code
+.vscode/
+.vscode-test/
+
+# IDE - Eclipse
+.settings/
+.project
+.classpath
+.factorypath
+
+# OS
+.DS_Store
+Thumbs.db
+
+# NOTE: gradlew, gradlew.bat, and gradle/wrapper/gradle-wrapper.{jar,properties}
+# MUST be committed. Do NOT add them here - CI relies on them.
