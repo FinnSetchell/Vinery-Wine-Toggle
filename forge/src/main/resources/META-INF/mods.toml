@@ -1,0 +1,48 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+license = "MIT"
+issueTrackerURL = "https://github.com/FinnSetchell/Vinery-Wine-Toggle/issues"
+
+[[mods]]
+modId = "winetoggle"
+version = "${version}"
+displayName = "Vinery Wine Toggle"
+displayURL = "https://github.com/FinnSetchell/Vinery-Wine-Toggle"
+description = '''
+Completely disable specific Vinery wines via config.
+'''
+
+[[dependencies.winetoggle]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.winetoggle]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.winetoggle]]
+modId = "architectury"
+mandatory = true
+versionRange = "[9.0.0,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.winetoggle]]
+modId = "vinery"
+mandatory = true
+versionRange = "[1.0,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.winetoggle]]
+modId = "cloth_config"
+mandatory = true
+versionRange = "[11,)"
+ordering = "NONE"
+side = "BOTH"

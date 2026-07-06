@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "net.finnsetchell.winetoggle.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8",
+  "mixins": [
+    "AbstractVillagerMixin",
+    "RecipeManagerMixin",
+    "ServerAdvancementManagerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

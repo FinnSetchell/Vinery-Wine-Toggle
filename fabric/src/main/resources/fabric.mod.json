@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "winetoggle",
+  "version": "${version}",
+  "name": "Vinery Wine Toggle",
+  "description": "Completely disable specific Vinery wines via config.",
+  "authors": [
+    "FinnSetchell"
+  ],
+  "contact": {
+    "homepage": "https://github.com/FinnSetchell/Vinery-Wine-Toggle",
+    "sources": "https://github.com/FinnSetchell/Vinery-Wine-Toggle",
+    "issues": "https://github.com/FinnSetchell/Vinery-Wine-Toggle/issues"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.finnsetchell.winetoggle.fabric.WineToggleFabric"
+    ],
+    "modmenu": [
+      "net.finnsetchell.winetoggle.fabric.WineToggleModMenu"
+    ]
+  },
+  "mixins": [
+    "winetoggle-common.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": ">=1.20",
+    "java": ">=17",
+    "architectury": ">=9.0.0",
+    "fabric-api": "*",
+    "cloth-config2": "*",
+    "vinery": "*"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}
