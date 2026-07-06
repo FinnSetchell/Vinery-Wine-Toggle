@@ -1,0 +1,6 @@
+{
+  "winetoggle.config.title": "Vinery Wine Toggle",
+  "winetoggle.config.category": "General",
+  "winetoggle.config.disabledWines": "Disabled Wines",
+  "winetoggle.config.disabledWines.tooltip": "Wine item IDs to completely disable (e.g. vinery:eiswein). Recipe and advancement changes apply on world reload; creative-tab and drinking changes apply immediately."
+}
