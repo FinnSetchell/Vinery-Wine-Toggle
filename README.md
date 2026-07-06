@@ -6,6 +6,8 @@
 
 [![My projects](https://img.shields.io/badge/Modrinth-projects-008080?style=for-the-badge&logo=modrinth)](https://modrinth.com/user/FinnSetchell)
 
+> ⚠️ This is a lightweight stopgap mod. The same functionality has been [submitted as a pull request to Vinery](https://github.com/Let-s-Do-Collection/Vinery/pull/83) — if it gets merged, you won't need this.
+
 ### ABOUT
 
 Vinery Wine Toggle is a small companion mod for [Vinery](https://www.curseforge.com/minecraft/mc-mods/lets-do-wine) that lets you completely disable any wine through a config.
