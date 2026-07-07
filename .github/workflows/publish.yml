@@ -1,0 +1,30 @@
+name: Publish Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Git tag to publish (e.g. 1.0.0-1.20.1)'
+        type: string
+        required: true
+      releaseType:
+        description: 'Release type: major | minor | alpha'
+        type: string
+        required: true
+      releaseId:
+        description: 'Worker KV release ID'
+        type: string
+        required: true
+
+jobs:
+  publish:
+    uses: FinnSetchell/release-actions/.github/workflows/publish.yml@main
+    with:
+      tag: ${{ inputs.tag }}
+      releaseType: ${{ inputs.releaseType }}
+      releaseId: ${{ inputs.releaseId }}
+      javaVersion: '17'
+    secrets:
+      MODRINTH_API_KEY: ${{ secrets.MODRINTH_API_KEY }}
+      CURSEFORGE_API_KEY: ${{ secrets.CURSEFORGE_API_KEY }}
+      WORKER_API_KEY: ${{ secrets.WORKER_API_KEY }}
