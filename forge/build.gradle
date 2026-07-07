@@ -101,7 +101,7 @@ publishMods {
     changelog = changelogtext
     version = project.version.toString()
     type = isAlpha ? ALPHA : STABLE
-    displayName = "${rootProject.mod_name} ${project.version} [FORGE]"
+    displayName = "${rootProject.modName} ${project.version} [FORGE]"
     modLoaders.add("forge")
     dryRun = false
     maxRetries = 3
@@ -111,7 +111,7 @@ publishMods {
         repository = "FinnSetchell/Vinery-Wine-Toggle"
         commitish = "1.20.1"
         tagName = providers.environmentVariable("GITHUB_REF_NAME").orElse("${minecraft_version}-${project.version}")
-        displayName = "${rootProject.mod_name} ${project.version} [FORGE]"
+        displayName = "${rootProject.modName} ${project.version} [FORGE]"
     }
 
     modrinth {
