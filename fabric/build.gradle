@@ -99,7 +99,7 @@ publishMods {
         accessToken = providers.environmentVariable("GITHUB_TOKEN")
         repository = "FinnSetchell/Vinery-Wine-Toggle"
         commitish = "1.20.1"
-        tagName = providers.environmentVariable("GITHUB_REF_NAME").orElse("${minecraft_version}-${project.version}")
+        tagName = providers.environmentVariable("GITHUB_REF_NAME").orElse("${rootProject.minecraftVersion}-${project.version}")
         displayName = "${rootProject.modName} ${project.version} [FABRIC]"
     }
 
