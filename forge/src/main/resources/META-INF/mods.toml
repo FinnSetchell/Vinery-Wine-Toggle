@@ -8,6 +8,7 @@ modId = "winetoggle"
 version = "${version}"
 displayName = "Vinery Wine Toggle"
 displayURL = "https://github.com/FinnSetchell/Vinery-Wine-Toggle"
+logoFile = "pack.png"
 description = '''
 Completely disable specific Vinery wines via config.
 '''

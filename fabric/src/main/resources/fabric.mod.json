@@ -13,6 +13,7 @@
     "issues": "https://github.com/FinnSetchell/Vinery-Wine-Toggle/issues"
   },
   "license": "MIT",
+  "icon": "pack.png",
   "environment": "*",
   "entrypoints": {
     "main": [
