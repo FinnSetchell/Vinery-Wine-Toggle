@@ -1,4 +1,4 @@
-[![Discord](https://img.shields.io/discord/869218732650688543?color=008080&label=DISCORD&style=for-the-badge)](https://discord.com/invite/S5nffJbuvA)
+[![Discord](https://img.shields.io/discord/869218732650688543?color=008080&label=DISCORD&style=for-the-badge)](https://moogsmods.com/discord?r=readme-vinery)
 
 [![Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/D1D8LKA5N)
 
@@ -37,4 +37,4 @@ Recipe and advancement changes apply on world reload (`/reload`); creative-menu 
 
 ### SUPPORT
 
-The best and fastest way to get replies is to join the [Discord server](https://discord.gg/S5nffJbuvA).
+The best and fastest way to get replies is to join the [Discord server](https://moogsmods.com/discord?r=readme-vinery).
